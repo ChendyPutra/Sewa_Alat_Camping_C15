@@ -10,33 +10,18 @@ using System.Windows.Forms;
 
 namespace Sewa_Alat_Camping_C15
 {
-    public partial class Form3 : Form
+    public partial class Form4 : Form
     {
-        public Form3()
+        public Form4()
         {
             InitializeComponent();
         }
 
-        private void textBox7_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form3_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Form2 fm = new Form2();
-            fm.Show();
-            this.Hide();
+            Form3 br = new Form4();
+            br.Show();
+            this.Show();
         }
     }
 }
