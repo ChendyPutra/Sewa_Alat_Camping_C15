@@ -16,5 +16,12 @@ namespace Sewa_Alat_Camping_C15
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 fm = new Form2();
+            fm.Show();
+            this.Hide();
+        }
     }
 }
