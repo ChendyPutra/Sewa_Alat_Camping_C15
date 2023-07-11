@@ -97,8 +97,8 @@ namespace Sewa_Alat_Camping_C15
                     using (SqlConnection conn = new SqlConnection("data source=LAPTOP-GK4TO82F\\CHENDY;" + "database=Final_Project_C15;User ID=sa; Password=123"))
                     {
                         conn.Open();
-                        string query = "DELETE FROM dbo.pegawai WHERE NIK = @NIK";
-                        using (SqlCommand cmd = new SqlCommand(query, conn)) cmd.Parameters.Add("@NIK", txtIdPegawai.Text);
+                        cmd = new SqlCommand("delete from dbo.pegawai where NIK=@NIK", conn);
+                        cmd.Parameters.AddWithValue("@NIK", txtIdPegawai.Text);
                         cmd.ExecuteNonQuery();
                         MessageBox.Show("Delete Data " + txtIdPegawai.Text + " Berhasil", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }

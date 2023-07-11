@@ -242,5 +242,10 @@ namespace Sewa_Alat_Camping_C15
         {
 
         }
+
+        private void txtNama_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

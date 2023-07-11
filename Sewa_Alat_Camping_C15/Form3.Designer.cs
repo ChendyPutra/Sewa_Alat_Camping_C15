@@ -38,7 +38,6 @@
             this.btnDelete = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.btnSave = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.txtKeterangan = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtHarga = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtStok = new Guna.UI2.WinForms.Guna2TextBox();
@@ -120,7 +119,6 @@
             this.btnAdd.Controls.Add(this.btnDelete);
             this.btnAdd.Controls.Add(this.guna2Button2);
             this.btnAdd.Controls.Add(this.btnSave);
-            this.btnAdd.Controls.Add(this.guna2ComboBox1);
             this.btnAdd.Controls.Add(this.txtKeterangan);
             this.btnAdd.Controls.Add(this.txtHarga);
             this.btnAdd.Controls.Add(this.txtStok);
@@ -196,21 +194,6 @@
             this.btnSave.Text = "SIMPAN";
             this.btnSave.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
-            // guna2ComboBox1
-            // 
-            this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.guna2ComboBox1.ItemHeight = 30;
-            this.guna2ComboBox1.Location = new System.Drawing.Point(404, 86);
-            this.guna2ComboBox1.Name = "guna2ComboBox1";
-            this.guna2ComboBox1.Size = new System.Drawing.Size(324, 36);
-            this.guna2ComboBox1.TabIndex = 10;
-            // 
             // txtKeterangan
             // 
             this.txtKeterangan.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -222,7 +205,7 @@
             this.txtKeterangan.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtKeterangan.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtKeterangan.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtKeterangan.Location = new System.Drawing.Point(48, 215);
+            this.txtKeterangan.Location = new System.Drawing.Point(53, 175);
             this.txtKeterangan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtKeterangan.Name = "txtKeterangan";
             this.txtKeterangan.PasswordChar = '\0';
@@ -242,7 +225,7 @@
             this.txtHarga.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtHarga.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtHarga.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtHarga.Location = new System.Drawing.Point(48, 151);
+            this.txtHarga.Location = new System.Drawing.Point(53, 98);
             this.txtHarga.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtHarga.Name = "txtHarga";
             this.txtHarga.PasswordChar = '\0';
@@ -262,7 +245,7 @@
             this.txtStok.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtStok.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtStok.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtStok.Location = new System.Drawing.Point(404, 151);
+            this.txtStok.Location = new System.Drawing.Point(408, 98);
             this.txtStok.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtStok.Name = "txtStok";
             this.txtStok.PasswordChar = '\0';
@@ -282,7 +265,7 @@
             this.txtNama.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtNama.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtNama.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtNama.Location = new System.Drawing.Point(48, 86);
+            this.txtNama.Location = new System.Drawing.Point(408, 22);
             this.txtNama.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtNama.Name = "txtNama";
             this.txtNama.PasswordChar = '\0';
@@ -290,6 +273,7 @@
             this.txtNama.SelectedText = "";
             this.txtNama.Size = new System.Drawing.Size(326, 55);
             this.txtNama.TabIndex = 6;
+            this.txtNama.TextChanged += new System.EventHandler(this.txtNama_TextChanged);
             // 
             // txtIdBarang
             // 
@@ -302,13 +286,13 @@
             this.txtIdBarang.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtIdBarang.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtIdBarang.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtIdBarang.Location = new System.Drawing.Point(48, 22);
+            this.txtIdBarang.Location = new System.Drawing.Point(53, 22);
             this.txtIdBarang.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtIdBarang.Name = "txtIdBarang";
             this.txtIdBarang.PasswordChar = '\0';
             this.txtIdBarang.PlaceholderText = "ID Barang";
             this.txtIdBarang.SelectedText = "";
-            this.txtIdBarang.Size = new System.Drawing.Size(681, 55);
+            this.txtIdBarang.Size = new System.Drawing.Size(326, 55);
             this.txtIdBarang.TabIndex = 5;
             this.txtIdBarang.TextChanged += new System.EventHandler(this.txtIdBarang_TextChanged);
             // 
@@ -416,7 +400,6 @@
         private Guna.UI2.WinForms.Guna2Button btnDelete;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private Guna.UI2.WinForms.Guna2Button btnSave;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
         private Guna.UI2.WinForms.Guna2TextBox txtKeterangan;
         private Guna.UI2.WinForms.Guna2TextBox txtHarga;
         private Guna.UI2.WinForms.Guna2TextBox txtStok;
