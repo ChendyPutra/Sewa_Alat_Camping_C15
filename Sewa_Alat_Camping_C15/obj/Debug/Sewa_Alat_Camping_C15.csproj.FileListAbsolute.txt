@@ -14,3 +14,6 @@ C:\Users\HP\source\repos\Sewa_Alat_Camping_C15\Sewa_Alat_Camping_C15\bin\Debug\G
 C:\Users\HP\source\repos\Sewa_Alat_Camping_C15\Sewa_Alat_Camping_C15\obj\Debug\Sewa_Alat_Camping_C15.csproj.CopyComplete
 C:\Users\HP\source\repos\Sewa_Alat_Camping_C15\Sewa_Alat_Camping_C15\obj\Debug\Sewa_Alat_Camping_C15.DataBarang.resources
 C:\Users\HP\source\repos\Sewa_Alat_Camping_C15\Sewa_Alat_Camping_C15\obj\Debug\Sewa_Alat_Camping_C15.DataPesanan.resources
+C:\Users\HP\source\repos\Sewa_Alat_Camping_C15\Sewa_Alat_Camping_C15\obj\Debug\Sewa_Alat_Camping_C15.DataCustomer.resources
+C:\Users\HP\source\repos\Sewa_Alat_Camping_C15\Sewa_Alat_Camping_C15\obj\Debug\Sewa_Alat_Camping_C15.DataPegawai.resources
+C:\Users\HP\source\repos\Sewa_Alat_Camping_C15\Sewa_Alat_Camping_C15\obj\Debug\Sewa_Alat_Camping_C15.Form7.resources

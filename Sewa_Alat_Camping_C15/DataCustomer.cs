@@ -21,5 +21,10 @@ namespace Sewa_Alat_Camping_C15
         {
 
         }
+
+        private void guna2TextBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

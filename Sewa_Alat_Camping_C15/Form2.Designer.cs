@@ -38,7 +38,6 @@
             this.button2 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.button4 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
             this.lblUser = new System.Windows.Forms.Label();
             this.panelSidebar = new System.Windows.Forms.FlowLayoutPanel();
             this.btnLogin = new Guna.UI2.WinForms.Guna2Button();
@@ -52,6 +51,9 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.btnHead.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -168,19 +170,6 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(86, 65);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(133, 28);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Administrator";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
             // lblUser
             // 
             this.lblUser.AutoSize = true;
@@ -243,7 +232,9 @@
             // 
             // panelMaster
             // 
+            this.panelMaster.Controls.Add(this.guna2Button3);
             this.panelMaster.Controls.Add(this.btnPesanan);
+            this.panelMaster.Controls.Add(this.guna2Button2);
             this.panelMaster.Controls.Add(this.btnBarang);
             this.panelMaster.Controls.Add(this.panel4);
             this.panelMaster.Dock = System.Windows.Forms.DockStyle.Top;
@@ -263,7 +254,7 @@
             this.btnPesanan.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(146)))), ((int)(((byte)(119)))));
             this.btnPesanan.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnPesanan.ForeColor = System.Drawing.Color.White;
-            this.btnPesanan.Location = new System.Drawing.Point(54, 57);
+            this.btnPesanan.Location = new System.Drawing.Point(45, 228);
             this.btnPesanan.Name = "btnPesanan";
             this.btnPesanan.Size = new System.Drawing.Size(237, 49);
             this.btnPesanan.TabIndex = 53;
@@ -279,7 +270,7 @@
             this.btnBarang.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(146)))), ((int)(((byte)(119)))));
             this.btnBarang.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnBarang.ForeColor = System.Drawing.Color.White;
-            this.btnBarang.Location = new System.Drawing.Point(54, 0);
+            this.btnBarang.Location = new System.Drawing.Point(53, 94);
             this.btnBarang.Name = "btnBarang";
             this.btnBarang.Size = new System.Drawing.Size(237, 49);
             this.btnBarang.TabIndex = 53;
@@ -365,6 +356,49 @@
             this.guna2Button5.Text = "Logout";
             this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
             // 
+            // guna2Button2
+            // 
+            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button2.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button2.ForeColor = System.Drawing.Color.White;
+            this.guna2Button2.Location = new System.Drawing.Point(53, 22);
+            this.guna2Button2.Name = "guna2Button2";
+            this.guna2Button2.Size = new System.Drawing.Size(237, 49);
+            this.guna2Button2.TabIndex = 53;
+            this.guna2Button2.Text = "Akun";
+            // 
+            // guna2Button3
+            // 
+            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button3.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button3.ForeColor = System.Drawing.Color.White;
+            this.guna2Button3.Location = new System.Drawing.Point(53, 163);
+            this.guna2Button3.Name = "guna2Button3";
+            this.guna2Button3.Size = new System.Drawing.Size(237, 49);
+            this.guna2Button3.TabIndex = 54;
+            this.guna2Button3.Text = "Kurir";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(86, 65);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(133, 28);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Administrator";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -408,7 +442,6 @@
         private System.Windows.Forms.Panel panelHsl;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblUser;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.FlowLayoutPanel panelSidebar;
@@ -421,5 +454,8 @@
         private System.Windows.Forms.Panel panel4;
         private Guna.UI2.WinForms.Guna2Button guna2Button5;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button guna2Button3;
+        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private System.Windows.Forms.Label label2;
     }
 }
