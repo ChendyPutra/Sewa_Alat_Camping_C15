@@ -67,7 +67,6 @@ namespace Sewa_Alat_Camping_C15
                         MessageBox.Show("Insert Data Berhasil", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
 
-                    ClearData();
                     ShowData();
                     
                 }
