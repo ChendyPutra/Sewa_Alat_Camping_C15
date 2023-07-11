@@ -54,9 +54,7 @@ namespace Sewa_Alat_Camping_C15
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 fr = new Form1();
-            fr.Show();
-            this.Hide();
+          
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -81,9 +79,7 @@ namespace Sewa_Alat_Camping_C15
 
         private void guna2Button5_Click(object sender, EventArgs e)
         {
-            Form1 fr = new Form1();
-            fr.Show();
-            this.Hide();
+           
         }
 
         private void guna2Button3_Click(object sender, EventArgs e)

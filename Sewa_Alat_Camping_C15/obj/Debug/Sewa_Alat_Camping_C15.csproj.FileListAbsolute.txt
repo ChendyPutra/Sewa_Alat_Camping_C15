@@ -3,7 +3,6 @@ C:\Users\HP\source\repos\Sewa_Alat_Camping_C15\Sewa_Alat_Camping_C15\bin\Debug\S
 C:\Users\HP\source\repos\Sewa_Alat_Camping_C15\Sewa_Alat_Camping_C15\bin\Debug\Sewa_Alat_Camping_C15.pdb
 C:\Users\HP\source\repos\Sewa_Alat_Camping_C15\Sewa_Alat_Camping_C15\obj\Debug\Sewa_Alat_Camping_C15.csproj.AssemblyReference.cache
 C:\Users\HP\source\repos\Sewa_Alat_Camping_C15\Sewa_Alat_Camping_C15\obj\Debug\Sewa_Alat_Camping_C15.csproj.SuggestedBindingRedirects.cache
-C:\Users\HP\source\repos\Sewa_Alat_Camping_C15\Sewa_Alat_Camping_C15\obj\Debug\Sewa_Alat_Camping_C15.Form1.resources
 C:\Users\HP\source\repos\Sewa_Alat_Camping_C15\Sewa_Alat_Camping_C15\obj\Debug\Sewa_Alat_Camping_C15.Properties.Resources.resources
 C:\Users\HP\source\repos\Sewa_Alat_Camping_C15\Sewa_Alat_Camping_C15\obj\Debug\Sewa_Alat_Camping_C15.csproj.GenerateResource.cache
 C:\Users\HP\source\repos\Sewa_Alat_Camping_C15\Sewa_Alat_Camping_C15\obj\Debug\Sewa_Alat_Camping_C15.csproj.CoreCompileInputs.cache
