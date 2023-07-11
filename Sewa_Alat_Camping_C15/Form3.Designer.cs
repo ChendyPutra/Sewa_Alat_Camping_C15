@@ -34,7 +34,6 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.btnAdd = new System.Windows.Forms.Panel();
-            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             this.btnDelete = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.btnSave = new Guna.UI2.WinForms.Guna2Button();
@@ -115,7 +114,6 @@
             // 
             this.btnAdd.AutoScroll = true;
             this.btnAdd.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.btnAdd.Controls.Add(this.guna2Button5);
             this.btnAdd.Controls.Add(this.btnDelete);
             this.btnAdd.Controls.Add(this.guna2Button2);
             this.btnAdd.Controls.Add(this.btnSave);
@@ -130,22 +128,6 @@
             this.btnAdd.Size = new System.Drawing.Size(990, 233);
             this.btnAdd.TabIndex = 39;
             // 
-            // guna2Button5
-            // 
-            this.guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(146)))), ((int)(((byte)(119)))));
-            this.guna2Button5.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button5.ForeColor = System.Drawing.Color.White;
-            this.guna2Button5.Location = new System.Drawing.Point(771, 22);
-            this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.Size = new System.Drawing.Size(166, 55);
-            this.guna2Button5.TabIndex = 14;
-            this.guna2Button5.Text = "Add";
-            this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
-            // 
             // btnDelete
             // 
             this.btnDelete.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -155,7 +137,7 @@
             this.btnDelete.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(146)))), ((int)(((byte)(119)))));
             this.btnDelete.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnDelete.ForeColor = System.Drawing.Color.White;
-            this.btnDelete.Location = new System.Drawing.Point(771, 215);
+            this.btnDelete.Location = new System.Drawing.Point(771, 176);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(166, 55);
             this.btnDelete.TabIndex = 13;
@@ -171,7 +153,7 @@
             this.guna2Button2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(146)))), ((int)(((byte)(119)))));
             this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.Location = new System.Drawing.Point(771, 151);
+            this.guna2Button2.Location = new System.Drawing.Point(771, 98);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(166, 55);
             this.guna2Button2.TabIndex = 12;
@@ -187,7 +169,7 @@
             this.btnSave.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(146)))), ((int)(((byte)(119)))));
             this.btnSave.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnSave.ForeColor = System.Drawing.Color.White;
-            this.btnSave.Location = new System.Drawing.Point(771, 86);
+            this.btnSave.Location = new System.Drawing.Point(771, 22);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(166, 55);
             this.btnSave.TabIndex = 11;
@@ -407,6 +389,5 @@
         private Guna.UI2.WinForms.Guna2TextBox txtIdBarang;
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
         private Guna.UI2.WinForms.Guna2TextBox txtSearch;
-        private Guna.UI2.WinForms.Guna2Button guna2Button5;
     }
 }

@@ -152,22 +152,7 @@ namespace Sewa_Alat_Camping_C15
                 MessageBox.Show(x.ToString());
             }
         }
-        private void guna2Button5_Click(object sender, EventArgs e)
-        {
-            txtIdBarang.Text = "";
-            txtNama.Text = "";
-            txtHarga.Text = "";
-            txtStok.Text = "";
-            txtKeterangan.Text = "";
-            txtIdBarang.Enabled = true;
-            txtNama.Enabled = true;
-            txtHarga.Enabled = true;
-            txtStok.Enabled = true;
-            txtKeterangan.Enabled = true;
-            btnSave.Enabled = true;
-            btnDelete.Enabled = true;
-            btnAdd.Enabled = false;
-        }
+        
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
