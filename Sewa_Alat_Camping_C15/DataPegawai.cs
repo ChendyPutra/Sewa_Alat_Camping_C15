@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Sewa_Alat_Camping_C15
 {
-    public partial class DataCustomer : Form
+    public partial class DataPegawai : Form
     {
-        public DataCustomer()
+        public DataPegawai()
         {
             InitializeComponent();
-        }
-
-        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
