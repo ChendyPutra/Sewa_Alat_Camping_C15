@@ -191,5 +191,25 @@ namespace Sewa_Alat_Camping_C15
         {
             Application.Exit();
         }
+
+        private void guna2Button2_Click_1(object sender, EventArgs e)
+        {
+            tampilan(new Form7());
+        }
+
+        private void guna2Button4_Click_1(object sender, EventArgs e)
+        {
+            tampilan(new DataCustomer());
+        }
+
+        private void guna2Button5_Click_1(object sender, EventArgs e)
+        {
+            tampilan(new DataPegawai());
+        }
+
+        private void guna2Button3_Click_1(object sender, EventArgs e)
+        {
+            tampilan(new DataKurir());
+        }
     }
 }

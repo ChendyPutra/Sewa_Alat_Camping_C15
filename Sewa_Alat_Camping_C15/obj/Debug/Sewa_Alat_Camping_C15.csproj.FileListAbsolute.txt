@@ -17,3 +17,4 @@ C:\Users\HP\source\repos\Sewa_Alat_Camping_C15\Sewa_Alat_Camping_C15\obj\Debug\S
 C:\Users\HP\source\repos\Sewa_Alat_Camping_C15\Sewa_Alat_Camping_C15\obj\Debug\Sewa_Alat_Camping_C15.DataCustomer.resources
 C:\Users\HP\source\repos\Sewa_Alat_Camping_C15\Sewa_Alat_Camping_C15\obj\Debug\Sewa_Alat_Camping_C15.DataPegawai.resources
 C:\Users\HP\source\repos\Sewa_Alat_Camping_C15\Sewa_Alat_Camping_C15\obj\Debug\Sewa_Alat_Camping_C15.Form7.resources
+C:\Users\HP\source\repos\Sewa_Alat_Camping_C15\Sewa_Alat_Camping_C15\obj\Debug\Sewa_Alat_Camping_C15.DataKurir.resources

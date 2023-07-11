@@ -59,6 +59,12 @@
     <Compile Include="DataCustomer.Designer.cs">
       <DependentUpon>DataCustomer.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataKurir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataKurir.Designer.cs">
+      <DependentUpon>DataKurir.cs</DependentUpon>
+    </Compile>
     <Compile Include="DataPegawai.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +105,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="DataCustomer.resx">
       <DependentUpon>DataCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataKurir.resx">
+      <DependentUpon>DataKurir.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DataPegawai.resx">
       <DependentUpon>DataPegawai.cs</DependentUpon>
