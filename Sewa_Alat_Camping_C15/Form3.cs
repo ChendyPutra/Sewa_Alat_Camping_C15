@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Sewa_Alat_Camping_C15
 {
-    public partial class Form3 : Form
+    public partial class DataBarang : Form
     {
-        public Form3()
+        public DataBarang()
         {
             InitializeComponent();
         }
@@ -34,9 +34,7 @@ namespace Sewa_Alat_Camping_C15
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Form2 fm = new Form2();
-            fm.Show();
-            this.Hide();
+            Application.Exit();
         }
     }
 }
