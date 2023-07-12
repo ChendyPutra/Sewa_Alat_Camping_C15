@@ -87,7 +87,7 @@ namespace Sewa_Alat_Camping_C15
             tampilan(new DataBarang());
         }
 
-        private void guna2Button4_Click(object sender, EventArgs e)
+        private void guna2Button1_Click(object sender, EventArgs e)
         {
             tampilan(new DataPesanan());
 
@@ -202,7 +202,6 @@ namespace Sewa_Alat_Camping_C15
         {
             tampilan(new DataPegawai());
         }
-
         private void guna2Button3_Click_1(object sender, EventArgs e)
         {
             tampilan(new DataKurir());
