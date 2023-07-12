@@ -38,7 +38,7 @@ namespace Sewa_Alat_Camping_C15
                     {
                         conn.Open();
                         cmd = new SqlCommand("insert into dbo.pemilik (id_pemilik, nama_toko, alamat, no_telepon, email) values(@id_pemilik, @nama_toko, @alamat, @no_telepon, @email)", conn);
-                        cmd.Parameters.AddWithValue("@id_emilik", txtidpemilik.Text);
+                        cmd.Parameters.AddWithValue("@id_pemilik", txtidpemilik.Text);
                         cmd.Parameters.AddWithValue("@nama_toko", txtnamatoko.Text);
                         cmd.Parameters.AddWithValue("@alamat", txtalamat.Text);
                         cmd.Parameters.AddWithValue("@no_telepon", txtnohp.Text);
@@ -72,7 +72,7 @@ namespace Sewa_Alat_Camping_C15
                     {
                         conn.Open();
                         cmd = new SqlCommand("update dbo.pemilik set nama_toko=@nama_toko, alamat=@alamat, no_telepon=@no_telepon, email=@email where id_pemilik=@id_pemilik", conn);
-                        cmd.Parameters.AddWithValue("@id_emilik", txtidpemilik.Text);
+                        cmd.Parameters.AddWithValue("@id_pemilik", txtidpemilik.Text);
                         cmd.Parameters.AddWithValue("@nama_toko", txtnamatoko.Text);
                         cmd.Parameters.AddWithValue("@alamat", txtalamat.Text);
                         cmd.Parameters.AddWithValue("@no_telepon", txtnohp.Text);

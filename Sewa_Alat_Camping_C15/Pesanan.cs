@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace Sewa_Alat_Camping_C15
 {
-    public partial class DataPesanan : Form
+    public partial class Pesanan : Form
     {
-        public DataPesanan()
+        public Pesanan()
         {
             InitializeComponent();
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
-        private void Form4_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
