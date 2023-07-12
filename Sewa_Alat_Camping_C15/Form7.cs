@@ -197,5 +197,10 @@ namespace Sewa_Alat_Camping_C15
                 MessageBox.Show(x.ToString());
             }
         }
+
+        private void txtidpemilik_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

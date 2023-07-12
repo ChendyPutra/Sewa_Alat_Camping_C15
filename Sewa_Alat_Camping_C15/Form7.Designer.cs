@@ -243,6 +243,7 @@
             this.txtidpemilik.SelectedText = "";
             this.txtidpemilik.Size = new System.Drawing.Size(326, 55);
             this.txtidpemilik.TabIndex = 5;
+            this.txtidpemilik.TextChanged += new System.EventHandler(this.txtidpemilik_TextChanged);
             // 
             // label2
             // 

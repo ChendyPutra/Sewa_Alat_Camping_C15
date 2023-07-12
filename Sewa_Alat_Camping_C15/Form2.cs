@@ -95,7 +95,7 @@ namespace Sewa_Alat_Camping_C15
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-
+            tampilan(new Form2());
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
